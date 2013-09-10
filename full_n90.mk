@@ -18,7 +18,7 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and zatab, hence its name.
+# lines, full and n90, hence its name.
 #
 
 # Camera
@@ -30,10 +30,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 # Inherit from our device
-$(call inherit-product, device/allwinner/zatab/device.mk)
+$(call inherit-product, device/allwinner/n90/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_zatab
-PRODUCT_DEVICE := zatab
+PRODUCT_NAME := full_n90
+# Maybe set this to "n90", and set TARGET_OTA_ASSERT_DEVICE=n90,crane-anpei ?
+PRODUCT_DEVICE := n90
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on ZaTab
+PRODUCT_MODEL := Full AOSP on N90
