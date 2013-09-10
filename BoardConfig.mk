@@ -20,6 +20,11 @@ include device/allwinner/common/BoardConfig.mk
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/n90/recovery_keys.c
 
+# Various options for the existing ro.product.device when installing...
+# Adam's unbranded N90 came with ro.product.device=crane-anpei
+# There's a generic CWM image around with ro.product.device=A10-sun4i
+TARGET_OTA_ASSERT_DEVICE := n90,crane-anpei,A10-sun4i
+
 TARGET_KERNEL_CONFIG := sun4i_crane_defconfig
 
 SW_BOARD_USES_GSENSOR_TYPE := bma250
