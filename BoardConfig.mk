@@ -20,7 +20,7 @@ include device/allwinner/common/BoardConfig.mk
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/n90/recovery_keys.c
 
-TARGET_KERNEL_CONFIG := n90_defconfig
+TARGET_KERNEL_CONFIG := sun4i_crane_defconfig
 
 SW_BOARD_USES_GSENSOR_TYPE := bma250
 SW_BOARD_GSENSOR_XY_REVERT := true
