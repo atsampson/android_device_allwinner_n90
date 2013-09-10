@@ -14,7 +14,7 @@
 
 #
 # This file is the build configuration for a full Android
-# build for zatab hardware. This cleanly combines a set of
+# build for n90 hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
