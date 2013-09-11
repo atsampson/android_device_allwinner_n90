@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#
+# Emulator keyboard configuration file #1.
+#
+
 # Basic Parameters
 touch.deviceType = touchScreen
 touch.orientationAware = 1
@@ -32,3 +36,5 @@ touch.pressure.scale = 0.005
 
 # Orientation
 touch.orientation.calibration = none
+
+

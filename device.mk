@@ -35,6 +35,6 @@ PRODUCT_COPY_FILES += \
 	device/allwinner/n90/config/media_profiles.xml:system/etc/media_profiles.xml \
 	device/allwinner/n90/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 	device/allwinner/n90/config/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
-	device/allwinner/n90/config/Goodix-TS-board-3.idc:system/usr/idc/Goodix-TS-board-3.idc \
+	device/allwinner/n90/config/ft5x_ts.idc:system/usr/idc/ft5x_ts.idc \
 	device/allwinner/n90/config/devicespecific.sh:recovery/root/sbin/devicespecific.sh \
 #
