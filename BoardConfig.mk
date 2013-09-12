@@ -25,7 +25,7 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/n90/recovery_keys.c
 # There's a generic CWM image around with ro.product.device=A10-sun4i
 TARGET_OTA_ASSERT_DEVICE := n90,crane-anpei,A10-sun4i
 
-TARGET_KERNEL_CONFIG := sun4i_crane_defconfig
+TARGET_KERNEL_CONFIG := n90_defconfig
 
 SW_BOARD_USES_GSENSOR_TYPE := bma250
 SW_BOARD_GSENSOR_XY_REVERT := true
