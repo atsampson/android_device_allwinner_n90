@@ -1,4 +1,7 @@
 # EGL libs and dependencies
+# Note that the versions that came with the tablet won't work -- you'll
+# need to get an appropriate version from sunxi-mali for the kernel in
+# use (r3p0 as of linux-sunxi kernel 3.0.76).
 lib/egl/libGLESv2_mali.so
 lib/egl/libGLESv1_CM_mali.so
 lib/egl/libEGL_mali.so
