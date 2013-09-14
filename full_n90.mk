@@ -34,7 +34,6 @@ $(call inherit-product, device/allwinner/n90/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_n90
-# Maybe set this to "n90", and set TARGET_OTA_ASSERT_DEVICE=n90,crane-anpei ?
 PRODUCT_DEVICE := n90
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on N90
